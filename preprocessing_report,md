@@ -1,1 +1,21 @@
+# Data Preprocessing Report
 
+## Dataset
+Titanic Dataset
+
+## Preprocessing Steps
+
+1. Loaded the dataset using Pandas.
+2. Checked missing values.
+3. Filled missing Age values using Median.
+4. Filled missing Embarked values using Mode.
+5. Filled missing Fare values using Median.
+6. Replaced missing Cabin values with "Unknown".
+7. Encoded categorical columns.
+8. Applied StandardScaler to numerical features.
+9. Created a new feature called FamilySize.
+10. Split the dataset into training and testing sets.
+11. Exported the cleaned dataset as processed_dataset.csv.
+
+## Conclusion
+The dataset has been cleaned, transformed, and is ready for machine learning.
